@@ -38,5 +38,10 @@
     "name": "Bonnie Brennan",
     "headshotUrl": "/assets/speakers/bonnie-brennan.jpg",
     "brief": "GDE, Briebug"
+  },
+  {
+    "name": "Alex Okrushko",
+    "headshotUrl": "/assets/speakers/alex-okrushko.jpg",
+    "brief": "Google, Firebase, NgRx"
   }
 ]
