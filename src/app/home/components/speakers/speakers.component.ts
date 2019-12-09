@@ -63,16 +63,5 @@ declare var require: any;
   ]
 })
 export class SpeakersComponent {
-  speakers = shuffle(require("./speakers.json"));
-}
-
-function shuffle<T>(list: T[]) {
-  for (let index = 0; index < list.length; index++) {
-    const newIndex = Math.floor(Math.random() * (index + 1));
-    const temp = list[index];
-    list[index] = list[newIndex];
-    list[newIndex] = temp;
-  }
-
-  return list;
+  speakers = require("./speakers.json");
 }

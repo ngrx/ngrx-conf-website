@@ -1,13 +1,8 @@
 [
   {
-    "name": "Mike Ryan",
-    "headshotUrl": "/assets/speakers/mike-ryan.jpeg",
-    "brief": "NgRx, GDE, Synapse"
-  },
-  {
     "name": "Brandon Roberts",
     "headshotUrl": "/assets/speakers/brandon-roberts.jpg",
-    "brief": "NgRx, GDE, Nrwl"
+    "brief": "NgRx, Nrwl, GDE"
   },
   {
     "name": "Kim Maida",
@@ -15,14 +10,9 @@
     "brief": "Auth0, GDE"
   },
   {
-    "name": "Sam Julien",
-    "headshotUrl": "/assets/speakers/sam-julien.jpg",
-    "brief": "Auth0, GDE"
-  },
-  {
-    "name": "Shari Queeney",
-    "headshotUrl": "/assets/speakers/shari-queeney.jpg",
-    "brief": "Synapse, SHARI Principle"
+    "name": "Mike Ryan",
+    "headshotUrl": "/assets/speakers/mike-ryan.jpeg",
+    "brief": "NgRx, Synapse, GDE"
   },
   {
     "name": "Rob Wormald",
@@ -30,14 +20,24 @@
     "brief": "Google, Angular, NgRx"
   },
   {
+    "name": "Bonnie Brennan",
+    "headshotUrl": "/assets/speakers/bonnie-brennan.jpg",
+    "brief": "Briebug, GDE"
+  },
+  {
+    "name": "Shari Queeney",
+    "headshotUrl": "/assets/speakers/shari-queeney.jpg",
+    "brief": "Synapse, SHARI Principle"
+  },
+  {
+    "name": "Sam Julien",
+    "headshotUrl": "/assets/speakers/sam-julien.jpg",
+    "brief": "Auth0, GDE"
+  },
+  {
     "name": "Sam Brennan",
     "headshotUrl": "/assets/speakers/sam-brennan.jpg",
     "brief": "Angular for the Visual Learner"
-  },
-  {
-    "name": "Bonnie Brennan",
-    "headshotUrl": "/assets/speakers/bonnie-brennan.jpg",
-    "brief": "GDE, Briebug"
   },
   {
     "name": "Alex Okrushko",
