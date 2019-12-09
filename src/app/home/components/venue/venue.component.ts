@@ -74,6 +74,33 @@ import { Component } from "@angular/core";
       .address li:first-of-type {
         font-weight: 500;
       }
+
+      @media screen and (max-width: 1080px) {
+        :host {
+          padding: 0;
+        }
+
+        .inner {
+          padding: 80px 20px;
+          position: relative;
+          background: none;
+          z-index: 5;
+        }
+
+        .inner:before {
+          content: "";
+          background-color: #241b27;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          z-index: -1;
+          background-image: url("/assets/rocket-center.jpg");
+          background-position: -50% 0%;
+          opacity: 0.2;
+        }
+      }
     `
   ]
 })

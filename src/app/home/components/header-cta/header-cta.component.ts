@@ -24,7 +24,7 @@ import { Component } from "@angular/core";
 
       h2 {
         font-family: "Sansation Bold", sans-serif;
-        font-size: 34px;
+        font-size: 36px;
         color: #1e012f;
         margin: 0 0 12px;
       }
@@ -38,6 +38,16 @@ import { Component } from "@angular/core";
 
       em {
         font-weight: 400;
+      }
+
+      @media screen and (max-width: 1080px) {
+        :host {
+          text-align: center;
+        }
+
+        p {
+          font-size: 16px;
+        }
       }
     `
   ]

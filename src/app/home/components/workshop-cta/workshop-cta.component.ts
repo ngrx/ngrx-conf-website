@@ -99,6 +99,16 @@ import { Component } from "@angular/core";
       p {
         font-weight: 300;
       }
+
+      @media screen and (max-width: 1080px) {
+        .workshop {
+          flex-direction: column;
+        }
+
+        conf-speaker {
+          margin: 20px auto 0;
+        }
+      }
     `
   ]
 })

@@ -71,6 +71,16 @@ import { Component } from "@angular/core";
         font-weight: 400;
         margin: 0 0 4px;
       }
+
+      @media screen and (max-width: 1080px) {
+        .inner {
+          flex-direction: column;
+        }
+
+        .description {
+          margin-bottom: 60px;
+        }
+      }
     `
   ]
 })
