@@ -8,6 +8,9 @@ import { Component } from "@angular/core";
       Blasting off from the <em>U.S. Space &amp; Rocket Center</em> on
       <em>November 5th &amp; 6th, 2020</em>
     </p>
+    <div class="divider"></div>
+    <h4>Sign up to be notified when tickets go on sale in early 2020</h4>
+    <conf-convert></conf-convert>
   `,
   styles: [
     `
@@ -15,7 +18,7 @@ import { Component } from "@angular/core";
         display: flex;
         width: 100%;
         max-width: 1080px;
-        padding: 72px 20px;
+        padding: 72px 20px 56px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -38,6 +41,22 @@ import { Component } from "@angular/core";
 
       em {
         font-weight: 400;
+      }
+
+      .divider {
+        height: 1px;
+        width: 480px;
+        max-width: calc(100% - 60px);
+        background-color: #ad4acb;
+        opacity: 0.3;
+        margin: 18px 0 26px;
+      }
+
+      h4 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #947da2;
+        margin: 0 0 12px;
       }
 
       @media screen and (max-width: 1080px) {

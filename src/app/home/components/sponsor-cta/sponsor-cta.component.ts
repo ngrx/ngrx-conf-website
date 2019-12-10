@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
   template: `
     <div class="inner">
       <h3>Interested in Sponsoring NgRx Conf?</h3>
-      <a href="#">Get in Touch</a>
+      <a href="mailto:contact@ngrxconf.com">Get in Touch</a>
     </div>
   `,
   styles: [
@@ -13,7 +13,7 @@ import { Component } from "@angular/core";
       :host {
         display: block;
         width: 100%;
-        padding: 60px 20px;
+        padding: 50px 20px;
         background-color: #ad4acb;
       }
 
@@ -33,7 +33,7 @@ import { Component } from "@angular/core";
       }
 
       a {
-        background-color: white;
+        background-color: #fae9ff;
         font-weight: 900;
         font-size: 20px;
         color: #ad4acb;
@@ -41,12 +41,11 @@ import { Component } from "@angular/core";
         border-radius: 2px;
         text-transform: uppercase;
         text-decoration: none;
-        opacity: 0.82;
-        transition: opacity 300ms;
+        transition: background-color 300ms;
       }
 
       a:hover {
-        opacity: 1;
+        background-color: white;
       }
     `
   ]

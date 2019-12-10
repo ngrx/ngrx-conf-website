@@ -53,7 +53,6 @@ import { Component } from "@angular/core";
         padding: 80px 20px;
         background-color: #f9f9f9;
         width: 100%;
-        color: #35003d;
       }
 
       .inner {
