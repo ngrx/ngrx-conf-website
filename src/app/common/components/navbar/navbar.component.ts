@@ -4,8 +4,13 @@ import { Component } from "@angular/core";
   selector: "conf-navbar",
   template: `
     <div class="inner">
-      <img src="/assets/badge.svg" />
-      <h1>NgRx Conf</h1>
+      <div class="logo">
+        <img src="/assets/badge.svg" />
+        <h1>NgRx Conf</h1>
+      </div>
+      <div class="links">
+        <a routerLink="/code-of-conduct">Code of Conduct</a>
+      </div>
     </div>
   `,
   styles: [
@@ -30,6 +35,23 @@ import { Component } from "@angular/core";
         margin: 0 auto;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .links a {
+        color: white;
+        text-decoration: none;
+        opacity: 0.7;
+        transition: opacity 300ms;
+      }
+
+      .links a:hover {
+        opacity: 1;
       }
 
       img {

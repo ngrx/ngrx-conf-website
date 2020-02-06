@@ -3,18 +3,26 @@ import { Component } from "@angular/core";
 @Component({
   selector: "conf-header-cta",
   template: `
-    <h2>The Galaxy's First Reactive Angular Conference</h2>
-    <p>
-      Blasting off from the <em>U.S. Space &amp; Rocket Center</em> on
-      <em>November 5th &amp; 6th, 2020</em>
-    </p>
-    <div class="divider"></div>
-    <h4>Sign up to be notified when tickets go on sale in early 2020</h4>
-    <conf-convert></conf-convert>
+    <div class="inner">
+      <h2>The Galaxy's First Reactive Angular Conference</h2>
+      <p>
+        Blasting off from the <em>U.S. Space &amp; Rocket Center</em> on
+        <em>November 5th &amp; 6th, 2020</em>
+      </p>
+      <div class="divider"></div>
+      <h4>Sign up to be notified when tickets go on sale in early 2020</h4>
+      <conf-convert></conf-convert>
+    </div>
   `,
   styles: [
     `
       :host {
+        width: 100%;
+        display: block;
+        background-color: white;
+      }
+
+      .inner {
         display: flex;
         width: 100%;
         max-width: 1080px;
