@@ -10,8 +10,7 @@ import { Component } from "@angular/core";
         <em>November 5th &amp; 6th, 2020</em>
       </p>
       <div class="divider"></div>
-      <h4>Sign up to be notified when tickets go on sale in early 2020</h4>
-      <conf-convert></conf-convert>
+      <a href="https://ti.to/ngrx-conf/2020">Buy Tickets Now</a>
     </div>
   `,
   styles: [
@@ -60,11 +59,17 @@ import { Component } from "@angular/core";
         margin: 18px 0 26px;
       }
 
-      h4 {
-        font-size: 14px;
-        font-weight: 700;
-        color: #947da2;
-        margin: 0 0 12px;
+      a {
+        background-color: #ad4acb;
+        width: 260px;
+        line-height: 56px;
+        border-radius: 2px;
+        text-align: center;
+        font-weight: 900;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
       }
 
       @media screen and (max-width: 1080px) {

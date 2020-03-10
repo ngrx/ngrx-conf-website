@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
   selector: "conf-footer",
   template: `
     <div class="inner">
-      <span>&copy; 2019 NgRx Conf</span>
+      <span>&copy; 2019-2020 NgRx Conf</span>
 
       <a href="mailto:contact@ngrxconf.com">contact@ngrxconf.com</a>
     </div>

@@ -20,9 +20,14 @@
     "brief": "Google, Angular, NgRx"
   },
   {
+    "name": "Deborah Kurata",
+    "headshotUrl": "/assets/speakers/deborah-kurata.jpg",
+    "brief": "InStep Technologies, GDE, MVP"
+  },
+  {
     "name": "Bonnie Brennan",
     "headshotUrl": "/assets/speakers/bonnie-brennan.jpg",
-    "brief": "Briebug, GDE"
+    "brief": "BrieBug, GDE"
   },
   {
     "name": "Shari Queeney",
@@ -37,11 +42,51 @@
   {
     "name": "Sam Brennan",
     "headshotUrl": "/assets/speakers/sam-brennan.jpg",
-    "brief": "Angular for the Visual Learner"
+    "brief": "Angular Nation"
   },
   {
     "name": "Alex Okrushko",
     "headshotUrl": "/assets/speakers/alex-okrushko.jpg",
     "brief": "Google, Firebase, NgRx"
+  },
+  {
+    "name": "Lance Finney",
+    "headshotUrl": "/assets/speakers/lance-finney.jpg",
+    "brief": "Oasis Digital"
+  },
+  {
+    "name": "Loiane Groner",
+    "headshotUrl": "/assets/speakers/loiane-groner.jpg",
+    "brief": "Citibank, GDE"
+  },
+  {
+    "name": "Brian Love",
+    "headshotUrl": "/assets/speakers/brian-love.jpg",
+    "brief": "LiveLoveApp, GDE"
+  },
+  {
+    "name": "Mike Hartington",
+    "headshotUrl": "/assets/speakers/mike-hartington.jpg",
+    "brief": "Ionic, GDE"
+  },
+  {
+    "name": "Luke Howell",
+    "headshotUrl": "/assets/speakers/luke-howell.jpg",
+    "brief": "Suzy"
+  },
+  {
+    "name": "Hannah Howard",
+    "headshotUrl": "/assets/speakers/hannah-howard.jpg",
+    "brief": "Carbon Five"
+  },
+  {
+    "name": "Alisa Duncan",
+    "headshotUrl": "/assets/speakers/alisa-duncan.jpg",
+    "brief": "Engaged Technologies"
+  },
+  {
+    "name": "Wes Grimes",
+    "headshotUrl": "/assets/speakers/wes-grimes.jpg",
+    "brief": "Nrwl, NgRx, GDE"
   }
 ]

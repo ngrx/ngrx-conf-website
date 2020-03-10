@@ -5,10 +5,10 @@ import { Component } from "@angular/core";
   template: `
     <div class="inner">
       <div class="logo">
-        <img src="/assets/badge.svg" />
-        <h1>NgRx Conf</h1>
+        <a routerLink="/"><img src="/assets/logo.svg" alt="NgRx Conf"/></a>
       </div>
       <div class="links">
+        <a href="https://ti.to/ngrx-conf/2020">Tickets</a>
         <a routerLink="/code-of-conduct">Code of Conduct</a>
       </div>
     </div>
@@ -48,6 +48,7 @@ import { Component } from "@angular/core";
         text-decoration: none;
         opacity: 0.7;
         transition: opacity 300ms;
+        margin: 0 12px;
       }
 
       .links a:hover {
@@ -57,14 +58,6 @@ import { Component } from "@angular/core";
       img {
         max-height: 50px;
         width: auto;
-      }
-
-      h1 {
-        font-family: "Sansation Regular", sans-serif;
-        font-size: 26px;
-        color: white;
-        position: relative;
-        left: 12px;
       }
     `
   ]

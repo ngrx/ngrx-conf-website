@@ -8,6 +8,7 @@ import { Component } from "@angular/core";
     <conf-stats></conf-stats>
     <conf-speakers></conf-speakers>
     <conf-venue></conf-venue>
+    <conf-sponsors></conf-sponsors>
     <conf-sponsor-cta></conf-sponsor-cta>
     <conf-workshop-cta></conf-workshop-cta>
   `

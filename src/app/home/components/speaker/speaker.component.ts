@@ -3,7 +3,11 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "conf-speaker",
   template: `
-    <img [attr.src]="speaker.headshotUrl" loading="lazy" />
+    <img
+      [attr.src]="speaker.headshotUrl"
+      loading="lazy"
+      [attr.alt]="speaker.name"
+    />
 
     <h4>{{ speaker.name }}</h4>
     <h5>{{ speaker.brief }}</h5>
