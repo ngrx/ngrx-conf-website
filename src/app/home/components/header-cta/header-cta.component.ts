@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
     <div class="inner">
       <h2>The Galaxy's First Reactive Angular Conference</h2>
       <p>
-        Blasting off from the <em>U.S. Space &amp; Rocket Center</em> on
+        Blasting off from the <em>U.S. Space &amp; Rocket Center</em> in
         <em>Summer 2021</em>
       </p>
       <div class="divider"></div>
