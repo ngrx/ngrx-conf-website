@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
       <h2>The Galaxy's First Reactive Angular Conference</h2>
       <p>
         Blasting off from the <em>U.S. Space &amp; Rocket Center</em> in
-        <em>Summer 2021</em>
+        <em>2022</em>
       </p>
       <div class="divider"></div>
       <a href="https://ti.to/ngrx-conf/2020">Buy Tickets Now</a>
